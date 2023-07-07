@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  webserver:
+    # build: .
+    image: 'vincentsfu/cmpt372-asn3:webserver'
+    ports:
+      - '3000:3000'
+    stdin_open: true 
+    tty: true
+  db:
+    image: 'postgres'
+    ports: 
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root

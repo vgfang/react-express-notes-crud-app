@@ -1,0 +1,36 @@
+.NoteboxPopup {
+    background-color: #b9fcfc;
+    width: 600px;
+    padding: 20px;
+    border: 16px solid #b9fcfc;
+    border-radius: 16px;
+    background-color: #b9fcfc;
+    position: absolute;
+    display: none;
+}
+.NoteXBtn {
+    float: right;
+    font-size: 40px;
+    height: 50px;
+    width: 50px;
+    background-color: #025499;
+    color: white;
+    border-radius: 50%;
+}
+.NoteboxPopup > p {
+    font-size: 24px;
+}
+.NoteDelBtn {
+    height: 50px;
+    background-color: #025499;
+    color: white;
+    border-radius: 10%;
+}
+.spacer {
+    width: 50px;
+}
+.NoteContentTextArea {
+    width: 600px;
+    height: 400px;
+    font-size: 16px;
+}

@@ -1,0 +1,15 @@
+.NoteList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    justify-content: flex-start;
+    text-align: left;
+    width: 600px;
+}
+li {
+    font-size: 24px;
+}
+ul {
+    text-align: start;
+}
